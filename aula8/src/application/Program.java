@@ -38,7 +38,7 @@ public class Program {
 
 	}
 
-	static void logProductData(Product product) {
+	private static void logProductData(Product product) {
 		System.out.println("Product data: " + product.name + ", $ " + String.format("%.2f", product.price) + ", "
 				+ product.quantity + ", total: " + String.format("%.2f", product.totalValueInStock()));
 	}
